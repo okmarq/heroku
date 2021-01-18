@@ -4,6 +4,8 @@ This tutorial will enable you deploy your laravel 8 application with a MySQL dat
 
 I will assume you already have the laravel installer and composer installed on your machine as well as a web server like xampp, then you should also have a github account and git installed, with it comes the bash cli which i recommend you use as your cli. and finally have a heroku account then install the heroku cli. they are the prerequisites for this given tutorial.
 
+## The laravel section
+
 1	in your command line, run "laravel new heroku --jet" and follow the command prompt.
 
 	$ laravel new heroku --jet
@@ -22,6 +24,8 @@ I will assume you already have the laravel installer and composer installed on y
 
 by now you should see your laravel application active on your local development.
 now it is time to deploy your project on github then subsequenty on heroku.
+
+## The GitHub section
 
 4 the first step is to initialize your project environment with the command below
 
@@ -48,6 +52,8 @@ now it is time to deploy your project on github then subsequenty on heroku.
 	$ git push -u origin main
 
 at this point we are ready to initialize our heroku environment for deployment.
+
+## The Heroku Section
 
 10 the first step here is to login to heroku via your cli with the command below, follow the given instructions in the command prompt
 
